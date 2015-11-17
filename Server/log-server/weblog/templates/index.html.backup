@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/static/css/table.css">
+	<script type='text/javascript' src='/static/js/jquery-1.8.2.js'></script>
+</head>
+<body>
+  
+<table bgcolor="#7FEACF" style="width:100%">
+	<tr>
+		<td style="width:5%">
+			<img src="/static/images/radar-icon-001-450x450.png" style="width:75px;height:75px;">
+		</td>
+		<td style="width:95%" >
+			<p style="font-family:verdana;font-size:160%">Threat Detection Application</p>
+		</td>
+	</tr>
+</table>
+<hr>
+<!-- Table goes in the document BODY -->
+<table class="hovertable">
+<tr>
+	<th>Web Server Role</th>
+</tr>
+</table>
+<br>
+
+<table class="hovertable">
+<tr>
+	<th>Server</th><th>Agent Status</th><th>Current State</th>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Server1</td><td>Running</td><td>Normal</td>
+</tr>
+</table>
+<br>
+<select size="5" style="width:100%">
+  <option>Log1
+  <option>Log2
+  <option>Log3
+  <option>Log4
+</select>
+<br>
+<br>
+
+<table class="hovertable">
+<tr>
+	<th>Database Role</th>
+</tr>
+</table>
+<br>
+<table class="hovertable">
+<tr>
+	<th>Server</th><th>Agent Status</th><th>Current State</th>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Server1</td><td>Running</td><td>Normal</td>
+</tr>
+</table>
+<br>
+<select size="5" style="width:100%">
+  <option>Log1
+  <option>Log2
+  <option>Log3
+  <option>Log4
+</select>
+<br>
+
+
+<div id="result"></div>
+</body>
+</html>
